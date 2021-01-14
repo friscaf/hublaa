@@ -11,14 +11,14 @@ if (url.searchParams.get('by') != null) {
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Halo mas rakhaa", "Aku punya pertanyaan niiii", "question").then(function () {
+  Swal.fire("Halo mas dimasssssssssss", "Aku punya pertanyaan niiii", "question").then(function () {
     Swal.fire("Jawab jujur yaa mas wkwk").then(function () {
       Swal.fire("Awasss yaaa kalooo boong samean wkwk", "", "error").then(function () {
 
         const {
           value: name
         } = Swal.fire({
-          title: 'Isii namamuu yaaa',
+          title: 'Isii namamuu yaaa mas ',
           input: 'text',
           inputLabel: '',
           showCancelButton: true,
